@@ -120,6 +120,7 @@ function annotate(fn, strictDi, name) {
 /**
  * @ngdoc service
  * @name $injector
+ * @kind function
  *
  * @description
  *
@@ -201,8 +202,8 @@ function annotate(fn, strictDi, name) {
  * @description
  * Allows the user to query if the particular service exists.
  *
- * @param {string} Name of the service to query.
- * @returns {boolean} returns true if injector has given service.
+ * @param {string} name Name of the service to query.
+ * @returns {boolean} true if injector has given service.
  */
 
 /**
